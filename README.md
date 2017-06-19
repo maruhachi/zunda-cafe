@@ -1,5 +1,7 @@
 # zunda-cafe
-zunda-cafeのissue/wiki用リポジトリ
+zunda-cafeのissue/wiki用リポジトリ のfork
+
+[![Build Status](https://travis-ci.org/maruhachi/zunda-cafe.svg?branch=master)](https://travis-ci.org/maruhachi/zunda-cafe)
 
 ## sphinxによるガイドライン執筆環境整備
 
@@ -16,3 +18,7 @@ zunda-cafeのissue/wiki用リポジトリ
 2. 逐次masterへマージ
 3. マージされたらTravisCIでSphinxをビルド
 4. 生成したbuild/htmlを/docsへPush
+
+### 参考資料
+- [Qiita - Travis CIからgithub.ioにデプロイする方法](http://qiita.com/dora56/items/cafae475daec802b6b8f)
+- [Automatic Github Pages generation from Sphinx documentation](http://nikhilism.com/post/2012/automatic-github-pages-generation-from/)
