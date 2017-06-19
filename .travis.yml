@@ -12,7 +12,7 @@ before_script:
   - ERROR_LOG_FILE=$HOME/tmp/sphinx/build-error.log
 
 script:
-  - sh .build-deploy.sh 2> $ERROR_LOG_FILE
+  - sh build-deploy.sh 2> $ERROR_LOG_FILE
   - cat $ERROR_LOG_FILE
 
 after_script:
