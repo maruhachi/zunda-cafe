@@ -20,7 +20,7 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 gh-pages:
-	rm -rf ./docs
+	rm -rf docs/*
 	make html
-	mv -fv build/html/* ./docs
+	mv -f build/html/* ./docs
 	touch ./docs/.nojekyll
