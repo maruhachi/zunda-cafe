@@ -21,4 +21,7 @@ zunda-cafeのissue/wiki用リポジトリ のfork
 
 ### 参考資料
 - [Qiita - Travis CIからgithub.ioにデプロイする方法](http://qiita.com/dora56/items/cafae475daec802b6b8f)
-- [Automatic Github Pages generation from Sphinx documentation](http://nikhilism.com/post/2012/automatic-github-pages-generation-from/)
+- [Automatic Github Pages generation from Sphinx documentation](http://nikhilism.com/post/2012/automatic-github-pages-generation-from/
+
+wa0-wa-wa-w-a-w-a-w
+)
