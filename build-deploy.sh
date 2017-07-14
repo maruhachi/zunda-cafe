@@ -11,4 +11,6 @@ git config --global user.name "travisci"
 git add docs/. -f
 git status
 git commit -m 'Generated automatically by TravisCI. deploy to /docs.'
+git log 
+git branch -a
 git push "https://maruhachi:${GH_TOKEN}@github.com/maruhachi/zunda-cafe.git" master:master
