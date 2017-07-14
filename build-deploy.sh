@@ -10,4 +10,5 @@ git config --global user.email "travis@example.com"
 git config --global user.name "travisci"
 git add docs/. -f
 git commit -m 'Generated automatically by TravisCI. deploy to /docs.'
-git push "https://${GH_TOKEN}@github.com/maruhachi/zunda-cafe.git" master:master 
+# git push "https://${GH_TOKEN}@github.com/maruhachi/zunda-cafe.git" master:master 
+git push origin master 
