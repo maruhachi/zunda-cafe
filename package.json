@@ -1,0 +1,21 @@
+{
+  "name": "clone-zunda-cafe",
+  "version": "0.0.1",
+  "description": "zunda-cafe",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maruhachi/zunda-cafe.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-webserver": "^0.9.1"
+  }
+}
